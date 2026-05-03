@@ -19,7 +19,7 @@ services:
       dockerfile: ./Dockerfile
     image: 'saeedamadan74/laravel-app'
     volumes:
-      - . /var/www/html/
+      - . :/var/www/html/
     ports:
       - "5000:80"
 
